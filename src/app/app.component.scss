@@ -1,140 +1,140 @@
-// nz-header {
-//   background: #fff;
-//   color: #5f6368;
-//   height: 64px;
-//   padding: 8px;
-//   border-bottom: 1px solid #dcdee2;
+nz-header {
+  background: #fff;
+  color: #5f6368;
+  height: 64px;
+  padding: 8px;
+  border-bottom: 1px solid #dcdee2;
 
-//   >div {
-//     line-height: 0;
-//     vertical-align: middle;
-//   }
+  >div {
+    line-height: 0;
+    vertical-align: middle;
+  }
 
-//   .left {
-//     .left-icon {
-//       width: 30px;
-//       font-size: 17px;
-//       margin-right: 10px;
-//     }
+  .left {
+    .left-icon {
+      width: 30px;
+      font-size: 17px;
+      margin-right: 10px;
+    }
 
-//     .left-today {
-//       width: 30px;
-//       height: 30px;
-//       background: #1a73e8;
-//       color: #fff;
-//       font-size: 20px;
-//       padding: 4px;
-//       margin: 0 10px;
-//     }
+    .left-today {
+      width: 30px;
+      height: 30px;
+      background: #1a73e8;
+      color: #fff;
+      font-size: 20px;
+      padding: 4px;
+      margin: 0 10px;
+    }
 
-//     .left-title {
-//       color: #5f6368;
-//       font-size: 22px;
-//     }
-//   }
+    .left-title {
+      color: #5f6368;
+      font-size: 22px;
+    }
+  }
 
-//   .center {
-//     .today-year {
-//       margin-left: 10px;
-//       display: inline-block;
-//       width: 144px;
-//       height: 30px;
-//       line-height: 20px;
-//       vertical-align: text-bottom;
-//     }
-//   }
-// }
+  .center {
+    .today-year {
+      margin-left: 10px;
+      display: inline-block;
+      width: 144px;
+      height: 30px;
+      line-height: 20px;
+      vertical-align: text-bottom;
+    }
+  }
+}
 
-// nz-sider {
-//   background: #fff;
-//   color: #5f6368;
-//   width: 310px;
-//   margin-right: 10px;
-//   padding: 0 20px;
-//   min-height: calc(100vh - 64px);
-//   height: calc(100vh - 64px);
-//   overflow: auto;
+nz-sider {
+  background: #fff;
+  color: #5f6368;
+  width: 310px;
+  margin-right: 10px;
+  padding: 0 20px;
+  min-height: calc(100vh - 64px);
+  height: calc(100vh - 64px);
+  overflow: auto;
 
-//   &.cleft {
-//     position: absolute;
-//     left: -350px;
-//   }
+  &.cleft {
+    position: absolute;
+    left: -350px;
+  }
 
-//   .left-cal {
-//     width: 100%;
-//   }
+  .left-cal {
+    width: 100%;
+  }
 
-//   .left-year-info {
-//     margin: 4px 0;
-//     overflow: hidden;
-//     vertical-align: middle;
+  .left-year-info {
+    margin: 4px 0;
+    overflow: hidden;
+    vertical-align: middle;
 
-//     span:first-child {
-//       float: left;
-//     }
+    span:first-child {
+      float: left;
+    }
 
-//     span:last-child {
-//       float: right;
+    span:last-child {
+      float: right;
 
-//       button {
-//         padding: 0;
-//         min-width: 16px;
-//         width: 20px;
-//         height: 20px;
-//         line-height: 20px;
-//         text-align: center;
-//         vertical-align: middle;
+      button {
+        padding: 0;
+        min-width: 16px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        vertical-align: middle;
 
-//         i {
-//           font-size: 12px;
-//           vertical-align: 0;
-//         }
-//       }
-//     }
-//   }
+        i {
+          font-size: 12px;
+          vertical-align: 0;
+        }
+      }
+    }
+  }
 
-//   .left-input {
-//     border: none;
-//     border-bottom: 1px solid #d9d9d9;
-//     background: #dadce0;
-//     outline: none;
+  .left-input {
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    background: #dadce0;
+    outline: none;
 
-//   }
-// }
+  }
+}
 
 
-// nz-content {
-//   background: #fff;
-//   color: #5f6368;
+nz-content {
+  background: #fff;
+  color: #5f6368;
 
-// }
+}
 
-// .title-day {
-//   div:first-child {
-//     font-size: 14px;
-//     height: 20px;
-//     width: 46px;
-//     text-align: center;
-//   }
+.title-day {
+  div:first-child {
+    font-size: 14px;
+    height: 20px;
+    width: 46px;
+    text-align: center;
+  }
 
-//   div:last-child {
-//     font-size: 16px;
-//     color: #5f6368;
-//     line-height: 46px;
-//     height: 46px;
-//     width: 46px;
-//     border-radius: 50%;
-//     text-align: center;
-//   }
+  div:last-child {
+    font-size: 16px;
+    color: #5f6368;
+    line-height: 46px;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    text-align: center;
+  }
 
-//   div:last-child.act {
-//     background-color: #1a73e8;
+  div:last-child.act {
+    background-color: #1a73e8;
 
-//     div {
-//       color: white;
-//     }
-//   }
-// }
+    div {
+      color: white;
+    }
+  }
+}
 
 
 
