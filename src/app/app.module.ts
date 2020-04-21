@@ -19,12 +19,23 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzBadgeModule } from 'ng-zorro-antd/badge';
+import { TestComponent } from './test/test.component';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { UIComponent } from './ui/ui.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent,
+    LoginComponent,
+    SignupComponent,
+    UIComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +43,8 @@ registerLocaleData(en);
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
+    RouterModule,
 
     NzGridModule,
     NzIconModule,
